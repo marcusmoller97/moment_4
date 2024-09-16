@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toDo{
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(237, 237, 237);
+    border: 2px solid #e0dfdf;
+    display: inline-block;
+}
+
+.btn {
+    background-color: #1a3041; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+
+.btn:hover {
+    background-color: #2777b4;
+}
+
+.form {
+    float: left;
+}
+
+label {
+    font-style: italic;
+} 
+
+input {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+}
