@@ -96,8 +96,6 @@ const toDo = {
           info.appendChild(p)
         }
     }
-
-
 }
 
 export {toDo}
