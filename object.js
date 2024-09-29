@@ -30,7 +30,6 @@ const toDo = {
         if (!input) {
             this.emptyInputWarning();
         } else {
-            console.log(input);
             // add task to list
             const li = document.createElement("li");
             li.innerHTML = input;
@@ -92,7 +91,6 @@ const toDo = {
                 p2.innerHTML = `Slutförda uppgifter: ${toDo.totalTasks}`;
 
             }
-            console.log(toDo.toDos);
         });
     },
     /**
