@@ -2,9 +2,9 @@
  * Main code
  * @author Marcus Möller 
 */
-import { toDo } from "./object.js"
+import { toDo } from "./object.js";
 
-let totalObjects = [0, 0, 0]
-totalObjects = toDo.btn(totalObjects)
-totalObjects = toDo.listEvent(totalObjects)
-toDo.toDoText(totalObjects)
+toDo.infoBox();
+const btn = document.querySelector(".btn");
+toDo.listEvent();
+btn.addEventListener("click", toDo.btnClick);
